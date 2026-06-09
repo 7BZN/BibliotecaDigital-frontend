@@ -19,12 +19,10 @@ cd frontend
 Instale as dependências:
 
 ```bash
-npm install
-```
+npx create-expo-app frontend
 
-ou
+cd frontend
 
-```bash
 npm install axios
 ```
 
