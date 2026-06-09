@@ -1,75 +1,50 @@
-# BibliotecaDigital-frontend
+# Welcome to your Expo app 👋
 
-# Frontend - Biblioteca Digital
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Tecnologias Utilizadas
+## Get started
 
-* React Native
-* Expo
-* Axios
+1. Install dependencies
 
-## Instalação
+   ```bash
+   npm install
+   ```
 
-Acesse a pasta do frontend:
+2. Start the app
 
-```bash
-cd frontend
-```
+   ```bash
+   npx expo start
+   ```
 
-Instale as dependências:
+In the output, you'll find options to open the app in a
 
-```bash
-npx create-expo-app frontend
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-cd frontend
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-npm install axios
-```
+## Get a fresh project
 
-caso o projeto tenha sido criado recentemente com Expo.
-
-## Configuração
-
-Abra o arquivo:
-
-```text
-services/api.js
-```
-
-Altere o IP para o endereço da máquina onde o backend está executando:
-
-```javascript
-baseURL: 'http://192.168.0.100:3000'
-```
-
-Substitua pelo IP correto da sua rede local.
-
-## Execução
-
-Inicie o projeto:
+When you're ready, run:
 
 ```bash
-npx expo start
+npm run reset-project
 ```
 
-Depois:
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-* Pressione `a` para abrir no Android Emulator
-* Ou leia o QR Code pelo aplicativo Expo Go
+## Learn more
 
-## Funcionalidades
+To learn more about developing your project with Expo, look at the following resources:
 
-* Cadastro de livros
-* Listagem de livros
-* Atualização de livros
-* Exclusão de livros
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Estrutura
+## Join the community
 
-```text
-frontend/
-│
-├── App.js
-└── services/
-    └── api.js
-```
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
